@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperStoreAPI", "SuperStoreAPI\SuperStoreAPI.csproj", "{7838629C-8C84-46C2-842C-FDF66CF979EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B57B8462-C3C5-44F0-8E3A-F16657E5FDF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperStoreAPI.SQL", "Domain\SuperStoreAPI.SQL\SuperStoreAPI.SQL.csproj", "{3A3A0160-0E6A-4CCF-993E-DE4D1F0648BE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7838629C-8C84-46C2-842C-FDF66CF979EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7838629C-8C84-46C2-842C-FDF66CF979EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7838629C-8C84-46C2-842C-FDF66CF979EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7838629C-8C84-46C2-842C-FDF66CF979EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A3A0160-0E6A-4CCF-993E-DE4D1F0648BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A3A0160-0E6A-4CCF-993E-DE4D1F0648BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A3A0160-0E6A-4CCF-993E-DE4D1F0648BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A3A0160-0E6A-4CCF-993E-DE4D1F0648BE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3A3A0160-0E6A-4CCF-993E-DE4D1F0648BE} = {B57B8462-C3C5-44F0-8E3A-F16657E5FDF0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C4B00C8-FD20-496A-9C84-D1D4316295D4}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,5 @@
+C:\Users\Chant\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\obj\Debug\net6.0\SuperStoreAPI.SQL.csproj.AssemblyReference.cache
+C:\Users\Chant\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\obj\Debug\net6.0\SuperStoreAPI.SQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chant\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\obj\Debug\net6.0\SuperStoreAPI.SQL.AssemblyInfoInputs.cache
+C:\Users\Chant\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\obj\Debug\net6.0\SuperStoreAPI.SQL.AssemblyInfo.cs
+C:\Users\Chant\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\obj\Debug\net6.0\SuperStoreAPI.SQL.csproj.CoreCompileInputs.cache
