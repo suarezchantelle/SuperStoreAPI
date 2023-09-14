@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using SuperStoreAPI.SQL.Context.Interfaces;
@@ -27,8 +28,9 @@ namespace SuperStoreAPI.SQL.Context
     {
         public SuperStoreContext() { }
         public SuperStoreContext(DbContextOptions<SuperStoreContext> options) : base(options) { }
+        public ChangeTracker GetChangeTracker() => ChangeTracker;
 
-        public virtual DbSet<Product> Products { get; set; }
+        public virtual DbSet<Product> Products { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
