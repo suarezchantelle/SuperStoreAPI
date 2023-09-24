@@ -3,3 +3,17 @@ C:\Users\Chant\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\obj\Debug\net
 C:\Users\Chant\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\obj\Debug\net6.0\SuperStoreAPI.SQL.AssemblyInfoInputs.cache
 C:\Users\Chant\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\obj\Debug\net6.0\SuperStoreAPI.SQL.AssemblyInfo.cs
 C:\Users\Chant\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\obj\Debug\net6.0\SuperStoreAPI.SQL.csproj.CoreCompileInputs.cache
+C:\Users\lilia\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\bin\Debug\net6.0\SuperStoreAPI.SQL.deps.json
+C:\Users\lilia\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\bin\Debug\net6.0\SuperStoreAPI.SQL.dll
+C:\Users\lilia\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\bin\Debug\net6.0\SuperStoreAPI.SQL.pdb
+C:\Users\lilia\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\obj\Debug\net6.0\SuperStoreAPI.SQL.csproj.AssemblyReference.cache
+C:\Users\lilia\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\obj\Debug\net6.0\SuperStoreAPI.SQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lilia\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\obj\Debug\net6.0\SuperStoreAPI.SQL.AssemblyInfoInputs.cache
+C:\Users\lilia\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\obj\Debug\net6.0\SuperStoreAPI.SQL.AssemblyInfo.cs
+C:\Users\lilia\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\obj\Debug\net6.0\SuperStoreAPI.SQL.csproj.CoreCompileInputs.cache
+C:\Users\lilia\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\obj\Debug\net6.0\SuperStoreAPI.SQL.dll
+C:\Users\lilia\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\obj\Debug\net6.0\refint\SuperStoreAPI.SQL.dll
+C:\Users\lilia\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\obj\Debug\net6.0\SuperStoreAPI.SQL.pdb
+C:\Users\lilia\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\obj\Debug\net6.0\ref\SuperStoreAPI.SQL.dll
+C:\Users\lilia\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\bin\Debug\net6.0\SuperStoreAPI.SQL.runtimeconfig.json
+C:\Users\lilia\source\repos\SuperStoreAPI\Domain\SuperStoreAPI.SQL\obj\Debug\net6.0\SuperStoreAPI.SQL.genruntimeconfig.cache
