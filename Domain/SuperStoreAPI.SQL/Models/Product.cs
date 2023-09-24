@@ -2,8 +2,7 @@
 {
     public class Product
     {
-        public Product(int id, string title, decimal price, string description, string image, decimal rate, int count, string category, int quantity)
-        {
+        public Product(int id, string title, decimal price, string description, string image, decimal rate, int count, string category) { 
             Id = id;
             Title = title;
             Price = price;
@@ -12,7 +11,6 @@
             Rate = rate;
             Count = count;
             Category = category;
-            Quantity = quantity;
         }
 
         public int Id { get; set; }
@@ -23,6 +21,5 @@
         public decimal Rate { get; set; }
         public int Count { get; set; }
         public string Category { get; set; } = null!;
-        public int Quantity { get; set; }
     }
 }
