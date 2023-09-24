@@ -1,0 +1,11 @@
+﻿{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "ENVIRONMENT": "local"
+  },
+  "ConnectionStrings": {
+    "SUPER_STORE_CONNECTION": "Server=(localdb)\\mssqllocaldb;Database=SuperStore"
+  }
+}

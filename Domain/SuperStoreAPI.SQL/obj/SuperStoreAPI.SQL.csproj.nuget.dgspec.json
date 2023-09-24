@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Chant\\source\\repos\\Enough\\SuperStoreAPI\\Domain\\SuperStoreAPI.SQL\\SuperStoreAPI.SQL.csproj": {}
+    "C:\\Users\\lilia\\source\\repos\\SuperStoreAPI\\Domain\\SuperStoreAPI.SQL\\SuperStoreAPI.SQL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Chant\\source\\repos\\Enough\\SuperStoreAPI\\Domain\\SuperStoreAPI.SQL\\SuperStoreAPI.SQL.csproj": {
+    "C:\\Users\\lilia\\source\\repos\\SuperStoreAPI\\Domain\\SuperStoreAPI.SQL\\SuperStoreAPI.SQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Chant\\source\\repos\\Enough\\SuperStoreAPI\\Domain\\SuperStoreAPI.SQL\\SuperStoreAPI.SQL.csproj",
+        "projectUniqueName": "C:\\Users\\lilia\\source\\repos\\SuperStoreAPI\\Domain\\SuperStoreAPI.SQL\\SuperStoreAPI.SQL.csproj",
         "projectName": "SuperStoreAPI.SQL",
-        "projectPath": "C:\\Users\\Chant\\source\\repos\\Enough\\SuperStoreAPI\\Domain\\SuperStoreAPI.SQL\\SuperStoreAPI.SQL.csproj",
-        "packagesPath": "C:\\Users\\Chant\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Chant\\source\\repos\\Enough\\SuperStoreAPI\\Domain\\SuperStoreAPI.SQL\\obj\\",
+        "projectPath": "C:\\Users\\lilia\\source\\repos\\SuperStoreAPI\\Domain\\SuperStoreAPI.SQL\\SuperStoreAPI.SQL.csproj",
+        "packagesPath": "C:\\Users\\lilia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lilia\\source\\repos\\SuperStoreAPI\\Domain\\SuperStoreAPI.SQL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Chant\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lilia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,8 +26,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/itsnational/_packaging/Main/nuget/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -54,6 +54,12 @@
               "version": "[6.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.5, )"
             },
@@ -90,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
