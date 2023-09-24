@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SuperStoreAPI.SQL.Context;
 
@@ -10,9 +11,10 @@ using SuperStoreAPI.SQL.Context;
 namespace SuperStoreAPI.SQL.Migrations
 {
     [DbContext(typeof(SuperStoreContext))]
-    partial class SuperStoreContextModelSnapshot : ModelSnapshot
+    [Migration("20230924201004_RateColumnFix")]
+    partial class RateColumnFix
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -49,6 +51,9 @@ namespace SuperStoreAPI.SQL.Migrations
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
 
                     b.Property<decimal>("Rate")
                         .HasColumnType("decimal(2,1)");

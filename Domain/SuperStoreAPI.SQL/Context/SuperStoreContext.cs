@@ -43,10 +43,9 @@ namespace SuperStoreAPI.SQL.Context
                 entity.Property(e => e.Price).HasColumnType("decimal(18,2)");
                 entity.Property(e => e.Description).HasMaxLength(500);
                 entity.Property(e => e.Image).HasMaxLength(500);
-                entity.Property(e => e.Rate).HasColumnType("decimal(1,1)");
+                entity.Property(e => e.Rate).HasColumnType("decimal(2,1)");
                 entity.Property(e => e.Count).HasColumnType("int");
                 entity.Property(e => e.Category).HasMaxLength(500);
-                entity.Property(e => e.Quantity).HasColumnType("int");
             });
             OnModelCreatingPartial(modelBuilder);
         }

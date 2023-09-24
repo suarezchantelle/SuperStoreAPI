@@ -11,7 +11,7 @@ using SuperStoreAPI.SQL.Context;
 namespace SuperStoreAPI.SQL.Migrations
 {
     [DbContext(typeof(SuperStoreContext))]
-    [Migration("20230914040105_InitialCreate")]
+    [Migration("20230924194101_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
