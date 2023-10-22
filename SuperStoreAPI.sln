@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperStoreAPI", "SuperStore
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B57B8462-C3C5-44F0-8E3A-F16657E5FDF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperStoreAPI.SQL", "Domain\SuperStoreAPI.SQL\SuperStoreAPI.SQL.csproj", "{3A3A0160-0E6A-4CCF-993E-DE4D1F0648BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuperStoreAPI.SQL", "Domain\SuperStoreAPI.SQL\SuperStoreAPI.SQL.csproj", "{3A3A0160-0E6A-4CCF-993E-DE4D1F0648BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
