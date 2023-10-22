@@ -60,8 +60,8 @@ namespace SuperStoreAPI.SQL
             return superStoreContext.SaveChanges();
         }
     }
-    public class ProductRepository : Repository<Product>, IProductsRepository
+    public class ProductsRepository : Repository<Product>, IProductsRepository
     {
-        public ProductRepository(ISuperStoreContext SuperStoreContext) : base(SuperStoreContext) { }
+        public ProductsRepository(ISuperStoreContext SuperStoreContext) : base(SuperStoreContext) { }
     }
 } 

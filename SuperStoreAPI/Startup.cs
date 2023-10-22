@@ -2,8 +2,10 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using SuperStoreAPI.SQL;
 using SuperStoreAPI.SQL.Context;
 using SuperStoreAPI.SQL.Context.Interfaces;
+using SuperStoreAPI.SQL.Repositories.Interfaces;
 
 [assembly: FunctionsStartup(typeof(SuperStoreAPI.Startup))]
 namespace SuperStoreAPI
@@ -38,7 +40,7 @@ namespace SuperStoreAPI
 
         private static void AddScopedRepositories(IFunctionsHostBuilder builder)
         {
-
+            builder.Services.AddScoped<IProductsRepository, ProductsRepository>();
         }
     }
 }
